@@ -1,0 +1,46 @@
+.work-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.work-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.work p{
+    font-size: 24px;
+}
+.project1 h1{
+    font-size: 50px;
+}
+.project2 h1{
+    font-size: 50px;
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.project1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.project2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.project1 ul{
+    font-size: 24px;
+}
+.portfolio{
+    scroll-margin-top: 200px;
+}
+.project1 h1 span{
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
