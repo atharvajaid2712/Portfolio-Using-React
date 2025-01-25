@@ -95,3 +95,38 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width:768px){
+    .contact{
+        gap: 40px;
+        margin: 50px 6%;
+        align-items: start;
+    }
+    .title-box h1{
+        font-size: 60px;
+        padding-left: 200px;
+    }   
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left p{
+        font-size: 16px;
+    }
+    .contact-left h1{
+        font-size: 30px;
+    }
+   
+    .contact-detail{
+        gap: 12px;
+    }
+    .contact-detail img{
+        width: 20px;
+    }
+    .contact-left{
+        margin-bottom: 30px;
+    }
+    .contact-right label{
+        font-size: 14px;
+    }
+   
+    
+}

@@ -36,3 +36,26 @@
 .education{
     scroll-margin-top: 200px;
 }
+@media(max-width:768px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .education-title h1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        gap: 50px;
+        font-size: 60px;
+    }
+    .year{
+        font-size: 30px;
+    }
+    .content h1{
+        font-size: 35px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+}

@@ -60,3 +60,32 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+@media(max-width:768px){
+    .about{
+        gap: 50px;
+        margin: 50px 6%;
+        align-items: start;
+    }
+    .about-title h1{
+        font-size: 60px;
+        padding-left: 200px;
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    
+    .about-skill p{
+        font-size: 16px;
+        min-width: 90px;
+    }
+    .about-skill hr{
+        height: 6px;
+    }
+}

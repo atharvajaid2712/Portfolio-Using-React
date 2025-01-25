@@ -44,3 +44,27 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media(max-width:768px){
+    .work{
+        display: flex;
+        flex-direction: column;
+    }
+    .work-title h1{
+        font-size: 60px;
+    }
+    .work p{
+        font-size: 16px;
+    }
+    .project1 h1{
+        font-size: 30px;
+    }
+    .project2 h1{
+        font-size: 30px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .project1 ul{
+        font-size: 16px;
+    }
+}
