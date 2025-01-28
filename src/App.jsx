@@ -9,7 +9,7 @@ import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
-    <div style={{ scrollBehavior: "smooth" }}>
+    <div>
       <Navbar/>
       <Hero/>
       <About/>

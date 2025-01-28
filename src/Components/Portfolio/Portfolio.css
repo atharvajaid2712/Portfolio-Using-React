@@ -1,70 +1,114 @@
-.work-title{
+/* General Portfolio Styles */
+.portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    padding-top: 100px;
 }
-.work-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
-    font-weight: 600;
+
+.portfolio h1 {
+    text-align: center; /* Ensures all h1 elements are centered */
+    font-size: 60px;
+    margin-bottom: 20px; /* Add spacing below h1 */
 }
-.work p{
-    font-size: 24px;
+
+.work, .certifications, .internship {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    width: 100%; /* Ensure full width */
 }
-.project1 h1{
-    font-size: 50px;
+
+.work-title h1, .certifications h1, .internship h1 {
+    text-align: center; /* Center align section titles */
+    width: 100%;
 }
-.project2 h1{
-    font-size: 50px;
-    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+
+.work h2, .internship h2 {
+    font-size: 30px;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
 }
-.project1{
-    padding-left: 100px;
-    padding-right: 100px;
+
+.work p, .internship p {
+    font-size: 18px;
+    text-align: left; /* Align content to the left */
 }
-.project2{
-    padding-left: 100px;
-    padding-right: 100px;
+.work-title p {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left; /* Align paragraph to the left */
 }
-.project1 ul{
-    font-size: 24px;
+.certifications ul {
+    list-style: none;
+    padding-left: 0; /* Remove default padding */
+    font-size: 18px;
+    line-height: 1.8; /* Add line spacing for readability */
 }
-.portfolio{
-    scroll-margin-top: 200px;
+
+.certifications ul li {
+    text-align: left; /* Align list items to the left */
+    margin-bottom: 10px;
 }
-.project1 h1 span{
-    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+.project1, .project2 {
+    margin-bottom: 40px; /* Add spacing between projects */
 }
-@media(max-width:768px){
-    .work{
-        display: flex;
-        flex-direction: column;
+
+.project1 h2, .project2 h2 {
+    margin-bottom: 10px;
+}
+
+.project1 ul, .project2 ul {
+    font-size: 18px;
+}
+.work-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all child elements horizontally */
+    text-align: center; /* Ensure text inside is centered */
+    width: 100%; /* Take full width for proper centering */
+    margin: 0 auto; /* Center the container itself if needed */
+}
+
+.work-title h1 {
+    margin: 0; /* Reset any default margin that might shift it */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .portfolio {
+        margin: 40px 20px; /* Reduce margins for smaller screens */
+        gap: 40px;
     }
-    .work-title h1{
-        font-size: 60px;
+
+    .work-title h1,
+    .certifications h1,
+    .internship h1 {
+        font-size: 40px; /* Reduce size for smaller screens */
     }
-    .work p{
-        font-size: 16px;
+
+    .work-title p, .work p, .internship p {
+        font-size: 14px; /* Adjust font size for readability */
     }
-    .project1 h1{
-        font-size: 30px;
+
+    .project1 h2, .project2 h2 {
+        font-size: 20px;
     }
-    .project2 h1{
-        font-size: 30px;
+
+    .certifications ul li {
+        font-size: 14px;
     }
-    .content p{
-        font-size: 16px;
-    }
-    .project1 ul{
-        font-size: 16px;
+
+    .portfolio h1 {
+        font-size: 40px; /* Reduce overall section title size */
     }
 }

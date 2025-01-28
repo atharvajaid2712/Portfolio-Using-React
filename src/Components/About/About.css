@@ -3,33 +3,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
-    scroll-margin-top: 200px;
+    gap: 60px;
+    margin: 70px 10%;
+    padding-top: 100px;
 }
 .about-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 60px;
 }
 .about-sections{
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 .about-left img{
-    width: 500px;
+    width: 300px;
     border-radius: 10px;
 }
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
 }
 .about-para{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 }
 .about-skills{
@@ -64,11 +62,10 @@
     .about{
         gap: 50px;
         margin: 50px 6%;
-        align-items: start;
+        align-items: center;
     }
     .about-title h1{
-        font-size: 60px;
-        padding-left: 200px;
+        font-size: 40px;
     }
     .about-sections{
         flex-direction: column;
@@ -78,11 +75,11 @@
     }
     .about-para{
         line-height: 25px;
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .about-skill p{
-        font-size: 16px;
+        font-size: 14px;
         min-width: 90px;
     }
     .about-skill hr{

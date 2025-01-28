@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/profile_img.svg'
+import resume from '../../assets/Resume.pdf'
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         <p>"Transforming ideas into interactive and responsive web designs as a Front-End Developer."</p>
         <div className="hero-action">
             <div className="hero-connect"><a href='#contact'>Connect with me</a></div>
-            <div className="hero-resume"><a href='Resume.pdf' download>My resume</a></div>
+            <div className="hero-resume"><a href={resume} download>My resume</a></div>
         </div>
     </div>
   )

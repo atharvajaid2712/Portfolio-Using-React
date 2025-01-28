@@ -1,18 +1,14 @@
-.education-title{
+.education{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    padding-top: 100px;
 }
 .education-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
-}
-.content{
-    padding-left: 300px;
 }
 .content2{
     padding-top: 50px;
@@ -21,41 +17,37 @@
     padding-top: 50px;
 }
 .year{
-    font-size: 50px;
+    font-size: 40px;
 }
 .content h1{
-    font-size: 50px;
+    font-size: 40px;
     background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .content p{
-    font-size: 30px;
-}
-.education{
-    scroll-margin-top: 200px;
+    font-size: 20px;
 }
 @media(max-width:768px){
     .content{
         display: flex;
         flex-direction: column;
-        padding-left: 50px;
+        padding-left: 20px;
     }
     .education-title h1{
         display: flex;
         flex-direction: column;
-        padding-left: 50px;
         gap: 50px;
-        font-size: 60px;
+        font-size: 40px;
     }
     .year{
-        font-size: 30px;
+        font-size: 24px;
     }
     .content h1{
-        font-size: 35px;
+        font-size: 24px;
     }
     .content p{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
